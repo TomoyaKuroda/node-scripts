@@ -1,0 +1,11 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "openssl rand -base64 32": "node -e \"console.log(require('crypto').randomBytes(32).toString('base64'))\""
+  },
+  "author": "",
+  "license": "ISC"
+}
